@@ -1,5 +1,4 @@
 <?php 
-
 /**
  * Change the default template to the custom template for Search.
  */

@@ -1,7 +1,12 @@
 <?php
+/**
+ * Either add this code in your theme functions.php or
+ * use https://wordpress.org/plugins/remove-links-and-scripts/
+ */
 
 /**
- * Remove Unnecessary Files/Links by using the following actions (These can be used as per your requirements)
+ * Remove Unnecessary Files/Links by using the following actions.
+ * These can be used as per your requirements
  */
 function remove_links_scripts() {
 
@@ -41,5 +46,3 @@ function remove_links_scripts() {
   remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 }
 add_filter( 'init', 'remove_links_scripts');
-
-// Either add this code in your theme functions.php or use https://wordpress.org/plugins/remove-links-and-scripts/

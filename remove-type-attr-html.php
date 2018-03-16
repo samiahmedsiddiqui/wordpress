@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Add all the below mentioned code in your theme's functions.php
  * to fix the W3Validator Warnings of `type` attribute in
